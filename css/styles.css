@@ -196,7 +196,7 @@ input[type=number] {
   }
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 475px) {
 
   body {
     padding: 10px 10px 0;
