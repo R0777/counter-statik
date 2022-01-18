@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="./js/counter.js" defer></script>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SberCounter</title>
+</head>
+<body>
+  <section class="counter">
+    <h1 class="counter__title">Счетчик времени</h1>
+    <p class="counter__text">Укажите часы и минуты для указания временного отрезка или нажмите "Запустить" для запуска счетчика. <br /><u>Для повтороного использования счетчика нажмите 'F5'</u></p>
+    <form class="counter__form">
+      <input class="counter__input-hour" type="number" min='0' max='24' placeholder='Часы' />
+      <input class="counter__input-min" type="number" min='0' max='60' placeholder='Минуты' />
+      <input class="counter__input-sec" type="number" min='0' max='60' placeholder='Секунды' />
+    <button class="counter__button">Запустить</button>
+    </form>
+    <div class='counter__time'>
+      <p class='counter__time-hour'>0</p><span class='counter__time-dots'>:</span>
+      <p class='counter__time-min'>0</p><span class='counter__time-dots'>:</span>
+      <p class='counter__time-sec'>0</p>
+    </div>
+  </section>
+</body>
+</html>
